@@ -1,0 +1,82 @@
+{
+  "address": "0xFA5BCE93c8c9df836D23EF495Cd02745F1A4708E",
+  "abi": [
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_org",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_msg",
+				"type": "string"
+			}
+		],
+		"name": "addThreat",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getThreats",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "org",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ThreatLog.Threat[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "threats",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "org",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "message",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
+}

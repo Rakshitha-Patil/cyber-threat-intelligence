@@ -1,0 +1,5 @@
+py-solc-x
+web3 
+pandas 
+scikit-learn 
+numpy
